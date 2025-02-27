@@ -1,0 +1,10 @@
+{
+  "name": "landing-page-project",
+  "version": "1.0.0",
+  "scripts": {
+    "minify": "uglifyjs landing.js -o landing.min.js -m"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.19.3"
+  }
+}
